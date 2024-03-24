@@ -67,7 +67,7 @@ return (username.equals("admin") && password.equals("admin"));
 			return false;
 		}
 	}
-
+	
 	public static void main(String[] args) {
 		LoginGUI login = new LoginGUI();
 		login.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
