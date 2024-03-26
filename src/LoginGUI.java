@@ -48,8 +48,7 @@ String password = new String(passwordField.getPassword());
 if (checkCredentials(username, password)) {
 JOptionPane.showMessageDialog(null, "Login successful!");
 } else {
-JOptionPane.showM
-essageDialog(null, "Invalid username or password.", "Error", JOptionPane.ERROR_MESSAGE);
+JOptionPane.showMessageDialog(null, "Invalid username or password.", "Error", JOptionPane.ERROR_MESSAGE);
 }
 
 // dummy method for checking credentials
